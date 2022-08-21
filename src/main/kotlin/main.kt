@@ -52,4 +52,9 @@ fun main(args: Array<String>){
     myDeskItems.removeAll(removeItems)
     println("I have cleant my desk and these are the remainding items $myDeskItems")
 
+    // Some functions of the ListArray
+
+    println("listof contains blue : ${colors.contains("Yellow")}") // should yield a true
+    println("listof contains blue : ${colors.contains("Magenta")}") // should yield a false
+
 }
