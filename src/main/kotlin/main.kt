@@ -58,4 +58,10 @@ fun main(args: Array<String>){
     println("listof contains blue : ${colors.contains("Magenta")}") // should yield a false
     println("Is this list empty : ${myCars.isEmpty()}")
 
+    val recipeList = arrayListOf<String>("Chicken","Mozzzerella","Oil")
+    // replace mozzerrela with another cheese
+    recipeList.set(1, "Cheddar")
+
+    
+
 }
